@@ -15,3 +15,10 @@ latex_elements={# The paper size ('letterpaper' or 'a4paper').
 \XeTeXlinebreaklocale "zh"
 \XeTeXlinebreakskip = 0pt plus 1pt
 """}
+
+
+source_parsers = {
+    '.md': CommonMarkParser,
+}
+
+source_suffix = ['.rst', '.md']

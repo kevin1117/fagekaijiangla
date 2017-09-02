@@ -2,7 +2,7 @@
 
 ####学习方法
 
-###########[1.最佳实践](method/1.best_practice.md)
+######### [1.最佳实践](method/1.best_practice.md)
 
 
 ####编程语言

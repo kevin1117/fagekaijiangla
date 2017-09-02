@@ -30,6 +30,9 @@ shapefile，ASCII，binary。内建了大量的分析函数。可以很方便的
    start/first_map
    start/visualization
 
+   learn_method/1.learn_method
+
+
 基础语法
 -------------------
 .. toctree::
@@ -45,52 +48,3 @@ shapefile，ASCII，binary。内建了大量的分析函数。可以很方便的
    language/statement
    language/loop
    language/function_procedure
-
-绘图
---------------------
-.. toctree::
-   :maxdepth: 2
-
-   plot/plot_interface
-
-
-图形源（Resources）
---------------------
-.. toctree::
-   :maxdepth: 2
-
-   resource/res_cn
-   resource/res_lb
-   resource/res_mp
-   resource/res_sf
-   resource/res_vc
-   resource/res_vp
-
-食谱
------------------
-.. toctree::
-   :maxdepth: 2
-
-   cookbook/10min2ncl
-   cookbook/wrf_processing_introduction
-   cookbook/named_colors
-
-库函数
------------------
-   
-
-扩展
------------------
-.. toctree::
-   :maxdepth: 2
-
-   extensions/geodiag
-   extensions/KML
-
-
-打赏
---------------------
-.. toctree::
-   :maxdepth: 2
-
-   donater

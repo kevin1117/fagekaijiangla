@@ -13,6 +13,13 @@
 ####系统架构
    ###### [1.分布式系统一致性问题](architecture/1.paxos.md)
 
+####项目实践
+   ###### [项目团队](project/1.staff.md)
+   ###### [技术选型](architecture/1.paxos.md)
+   ###### [项目管理](architecture/1.paxos.md)
+   ###### [其他杂项](architecture/1.paxos.md)
+   
+   
 -----------------------------------------
 #敬请期待：
 

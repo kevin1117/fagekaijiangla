@@ -29,8 +29,7 @@ shapefile，ASCII，binary。内建了大量的分析函数。可以很方便的
    start/commnad_editing
    start/first_map
    start/visualization
-
-   learn_method/1.learn_method
+   learn_method/method
 
 
 基础语法

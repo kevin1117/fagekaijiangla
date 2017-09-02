@@ -2,7 +2,7 @@
 
 ####学习方法
 
-######### [1.最佳实践](method/1.best_practice.md)
+###### [1.最佳实践](method/1.best_practice.md)
 
 
 ####编程语言
@@ -25,5 +25,5 @@
 
 参考文档 ：
 
-######### [readthebook 项目示例](https://github.com/nummy/learning-scala)
-######### [markdown语法](http://wowubuntu.com/markdown/)
+###### [readthebook 项目示例](https://github.com/nummy/learning-scala)
+###### [markdown语法](http://wowubuntu.com/markdown/)

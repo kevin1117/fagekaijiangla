@@ -1,0 +1,13 @@
+
+1.发布到服务器：
+
+scp -P 26042 -r  ./doc/architecture/1.paxos.md   root@104.224.151.87:/opt/blog/source/_posts/1.paxos.md
+
+
+2.直接在服务器上预览： http://104.224.151.87/
+
+
+3.从服务器下载文件的方法：
+
+scp -P 26042 -r root@104.224.151.87:/opt/blog/source/_posts/test.md ./doc
+

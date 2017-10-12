@@ -1,0 +1,5 @@
+该页面是直接发布到nginx ,作为静态服务器，静态发布。
+
+1.运行发布命令：
+
+sh -xe doc/nginx_web/deploy.sh

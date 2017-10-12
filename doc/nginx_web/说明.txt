@@ -3,3 +3,4 @@
 1.运行发布命令：
 
 sh -xe doc/nginx_web/deploy.sh
+

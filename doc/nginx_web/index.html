@@ -5,23 +5,122 @@
     <title>海阔天空-首页</title>
     <style>
 
+
         body {
             text-align: center;
         }
 
-        div {
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style-type: none;
             width: 500px;
-            width: 500px;
-            align-content: center;
+        }
+
+        h3 {
+            font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+        }
+
+        li img {
+            float: left;
+            margin: 0 15px 0 0;
+        }
+
+
+        li p {
+            font: 200 12px/1.5 Georgia, Times New Roman, serif;
+        }
+
+        li {
+            padding: 10px;
+            overflow: auto;
+        }
+
+        li:hover {
+            background: #eee;
+            cursor: pointer;
+        }
+
+        /** add by zfj**/
+        .content{
             margin-left: auto;
             margin-right: auto;
+            width: 500px;
+            height: 100px;
+            text-align: left;
+            margin-top: 30px;
         }
+
+        img{
+            width: 120px;
+            height: 100px;
+            margin: 0;
+            padding: 0;
+        }
+
+        p{
+            text-indent:25px;
+        }
+
+        a:link { text-decoration: none;}
+
     </style>
+    <script>
+        function gotoPage(url){
+            location.href=url;
+        }
+    </script>
 </head>
+
 <body>
-<div>
-    <img style="width: 500px;height: 460px;" src="./pics/test.jpg"/>
-    <div>测试图片</div>
+<div class="content">
+    <ul>
+
+        <li onclick="gotoPage('http://104.224.151.87:8080/2017/10/11/1.paxos/')">
+            <img src="./pics/paxos.jpg"/>
+            <h3>Paxos 协议讲解</h3>
+            <p>
+                Paxos 算法解决的问题是一个分布式系统如何就某个值（决议）达成一致。
+                一个典型的场景是，在一个分布式数据库系统中，如果各节点的初始状态一致，
+                每个节点执行相同的操作序列，那么他们最后能得到一个一致的状态。
+            </p>
+        </li>
+
+        <li onclick="gotoPage('http://www.cnblogs.com/kevin7234/p/4622808.html')">
+            <img src="./pics/pic01.png"/>
+            <h3>数据库表结构文档自动生成工具</h3>
+            <p>
+                软件开发完成后，交付客户给客户使用前通常需要数据库设计文档，
+                很多程序员甚至项目经理自然会想到采用人海战术，一个项目组的成员，分模块来写，然后合并。
+                作为程序员来说，这种方法是在是太low了。
+                那么能否有自动化工具呢...
+            </p>
+        </li>
+
+        <li onclick="gotoPage('http://104.224.151.87:8080/2017/10/11/1.paxos/')">
+            <img src="./pics/paxos.jpg"/>
+            <h3>Paxos 协议讲解</h3>
+            <p>
+                Paxos 算法解决的问题是一个分布式系统如何就某个值（决议）达成一致。
+                一个典型的场景是，在一个分布式数据库系统中，如果各节点的初始状态一致，
+                每个节点执行相同的操作序列，那么他们最后能得到一个一致的状态。
+            </p>
+        </li>
+
+        <li onclick="gotoPage('http://www.cnblogs.com/kevin7234/p/4622808.html')">
+            <img src="./pics/pic01.png"/>
+            <h3>数据库表结构文档自动生成工具</h3>
+            <p>
+                软件开发完成后，交付客户给客户使用前通常需要数据库设计文档，
+                很多程序员甚至项目经理自然会想到采用人海战术，一个项目组的成员，分模块来写，然后合并。
+                作为程序员来说，这种方法是在是太low了。
+                那么能否有自动化工具呢...
+            </p>
+        </li>
+    </ul>
 </div>
 </body>
 </html>
